@@ -22,6 +22,19 @@ npx ts-jest config:init
 npx -p typescript tsc --init
 ```
 
+- jest-extended
+
+jest-extended 타입스크립트에서 못찾으면
+global.d.ts -> import "jest-extended" 문구 추가
+tsconfig.json -> "files" : ["global.d.ts"]
+
+https://jest-extended.jestcommunity.dev/docs/getting-started/setup
+
+
+```
+ npm install -D jest-extended
+```
+
 ### Extentions
 
 - Jest Or Jest Runner
